@@ -35,7 +35,12 @@
   }
   .wrap{max-width:560px;margin:0 auto;padding:0 18px}
 
-  header{padding:26px 0 18px}
+  nav{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:18px 0 4px}
+  nav a{font-family:var(--display);font-size:16px;letter-spacing:.1em;text-transform:uppercase;
+    font-weight:600;text-align:center;padding:10px 6px;border:1px solid var(--line);
+    border-radius:var(--radius);color:var(--muted);text-decoration:none}
+  nav a.on{background:var(--signal);color:var(--petrol-900);border-color:var(--signal)}
+  header{padding:12px 0 18px}
   .eyebrow{font-family:var(--display);font-size:13px;letter-spacing:.22em;
     text-transform:uppercase;color:var(--muted);font-weight:600}
   h1{font-family:var(--display);font-size:clamp(38px,11vw,54px);
@@ -138,6 +143,11 @@
 </head>
 <body>
 <div class="wrap">
+
+  <nav>
+    <a href="index.html" class="on" aria-current="page">Training</a>
+    <a href="ernaehrung.html">Ernährung</a>
+  </nav>
 
   <header>
     <div class="eyebrow">Körpergewicht · ohne Geräte</div>

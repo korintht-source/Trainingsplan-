@@ -1,10 +1,11 @@
 /* Trainingsplan · Service Worker
    Cache-First: nach dem ersten Aufruf läuft die App vollständig offline. */
 
-const CACHE = "trainingsplan-v1";
+const CACHE = "trainingsplan-v2";
 const SHELL = [
   "./",
   "./index.html",
+  "./ernaehrung.html",
   "./manifest.webmanifest",
   "./apple-touch-icon.png",
   "./icon-192.png",

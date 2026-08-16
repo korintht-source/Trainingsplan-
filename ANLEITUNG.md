@@ -16,8 +16,9 @@ Auf github.com registrieren, falls noch nicht vorhanden. Kostenlos, keine Zahlun
 ## Schritt 3 — Dateien hochladen
 
 1. Im leeren Repository auf **uploading an existing file** klicken
-2. Diese sieben Dateien hochladen — **einzeln, nicht als ZIP-Ordner**:
+2. Diese acht Dateien hochladen — **einzeln, nicht als ZIP-Ordner**:
    - `index.html`
+   - `ernaehrung.html`
    - `manifest.webmanifest`
    - `sw.js`
    - `apple-touch-icon.png`
