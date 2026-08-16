@@ -1,0 +1,17 @@
+{
+  "name": "Trainingsplan 15 Minuten",
+  "short_name": "Training",
+  "description": "15-Minuten-Heimtraining ohne Geräte, Programm A und B im Wechsel.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0F2229",
+  "theme_color": "#0F2229",
+  "lang": "de",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
